@@ -56,7 +56,7 @@ function ShayariPage() {
           <input
             value={q}
             onChange={(e) =>
-              navigate({ search: (prev) => ({ ...prev, q: e.target.value }) })
+              navigate({ search: (prev: { q: string; cat: string }) => ({ ...prev, q: e.target.value }) })
             }
             placeholder="शायरी खोजें…"
             aria-label="Search shayari"
@@ -64,7 +64,7 @@ function ShayariPage() {
           />
           {q ? (
             <button
-              onClick={() => navigate({ search: (prev) => ({ ...prev, q: "" }) })}
+              onClick={() => navigate({ search: (prev: { q: string; cat: string }) => ({ ...prev, q: "" }) })}
               aria-label="Clear search"
               className="shrink-0 text-muted-foreground hover:text-gold"
             >
@@ -76,7 +76,7 @@ function ShayariPage() {
 
       <div className="mb-12 flex flex-wrap justify-center gap-2">
         <button
-          onClick={() => navigate({ search: (prev) => ({ ...prev, cat: "" }) })}
+          onClick={() => navigate({ search: (prev: { q: string; cat: string }) => ({ ...prev, cat: "" }) })}
           className={`rounded-full border px-4 py-2 text-sm transition-colors ${
             !cat ? "border-gold bg-accent text-accent-foreground" : "border-border/60 text-muted-foreground hover:border-gold/60"
           }`}
@@ -87,7 +87,7 @@ function ShayariPage() {
           <button
             key={c}
             onClick={() =>
-              navigate({ search: (prev) => ({ ...prev, cat: prev.cat === c ? "" : c }) })
+              navigate({ search: (prev: { q: string; cat: string }) => ({ ...prev, cat: prev.cat === c ? "" : c }) })
             }
             className={`hindi rounded-full border px-4 py-2 text-sm transition-colors ${
               cat === c
