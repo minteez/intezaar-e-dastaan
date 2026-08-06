@@ -10,33 +10,124 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as NazmRouteImport } from './routes/nazm'
+import { Route as QuotesRouteImport } from './routes/quotes'
+import { Route as ShayariRouteImport } from './routes/shayari'
+import { Route as NazmIndexRouteImport } from './routes/nazm.index'
+import { Route as NazmSlugRouteImport } from './routes/nazm.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NazmRoute = NazmRouteImport.update({
+  id: '/nazm',
+  path: '/nazm',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuotesRoute = QuotesRouteImport.update({
+  id: '/quotes',
+  path: '/quotes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ShayariRoute = ShayariRouteImport.update({
+  id: '/shayari',
+  path: '/shayari',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NazmIndexRoute = NazmIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => NazmRoute,
+} as any)
+const NazmSlugRoute = NazmSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => NazmRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
+  '/nazm': typeof NazmRouteWithChildren
+  '/quotes': typeof QuotesRoute
+  '/shayari': typeof ShayariRoute
+  '/nazm/$slug': typeof NazmSlugRoute
+  '/nazm/': typeof NazmIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
+  '/quotes': typeof QuotesRoute
+  '/shayari': typeof ShayariRoute
+  '/nazm/$slug': typeof NazmSlugRoute
+  '/nazm': typeof NazmIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/contact': typeof ContactRoute
+  '/nazm': typeof NazmRouteWithChildren
+  '/quotes': typeof QuotesRoute
+  '/shayari': typeof ShayariRoute
+  '/nazm/$slug': typeof NazmSlugRoute
+  '/nazm/': typeof NazmIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/nazm'
+    | '/quotes'
+    | '/shayari'
+    | '/nazm/$slug'
+    | '/nazm/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/quotes'
+    | '/shayari'
+    | '/nazm/$slug'
+    | '/nazm'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/nazm'
+    | '/quotes'
+    | '/shayari'
+    | '/nazm/$slug'
+    | '/nazm/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  ContactRoute: typeof ContactRoute
+  NazmRoute: typeof NazmRouteWithChildren
+  QuotesRoute: typeof QuotesRoute
+  ShayariRoute: typeof ShayariRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,22 +139,78 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nazm': {
+      id: '/nazm'
+      path: '/nazm'
+      fullPath: '/nazm'
+      preLoaderRoute: typeof NazmRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quotes': {
+      id: '/quotes'
+      path: '/quotes'
+      fullPath: '/quotes'
+      preLoaderRoute: typeof QuotesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/shayari': {
+      id: '/shayari'
+      path: '/shayari'
+      fullPath: '/shayari'
+      preLoaderRoute: typeof ShayariRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nazm/': {
+      id: '/nazm/'
+      path: '/'
+      fullPath: '/nazm/'
+      preLoaderRoute: typeof NazmIndexRouteImport
+      parentRoute: typeof NazmRoute
+    }
+    '/nazm/$slug': {
+      id: '/nazm/$slug'
+      path: '/$slug'
+      fullPath: '/nazm/$slug'
+      preLoaderRoute: typeof NazmSlugRouteImport
+      parentRoute: typeof NazmRoute
+    }
   }
 }
 
+interface NazmRouteChildren {
+  NazmSlugRoute: typeof NazmSlugRoute
+  NazmIndexRoute: typeof NazmIndexRoute
+}
+
+const NazmRouteChildren: NazmRouteChildren = {
+  NazmSlugRoute: NazmSlugRoute,
+  NazmIndexRoute: NazmIndexRoute,
+}
+
+const NazmRouteWithChildren = NazmRoute._addFileChildren(NazmRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  ContactRoute: ContactRoute,
+  NazmRoute: NazmRouteWithChildren,
+  QuotesRoute: QuotesRoute,
+  ShayariRoute: ShayariRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

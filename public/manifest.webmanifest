@@ -1,0 +1,12 @@
+{
+  "name": "Intezaar-e-Dastaan",
+  "short_name": "Intezaar",
+  "description": "Hindi & Urdu shayari, nazm and quotes — a moonlit literary journal.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1226",
+  "theme_color": "#0d1226",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }
+  ]
+}
