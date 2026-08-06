@@ -1,6 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, Clock } from "lucide-react";
-import { NAZMS } from "@/data/content";
+import { NAZMS, type Nazm } from "@/data/content";
 import { PoemActions } from "@/components/PoemActions";
 import { readingTime } from "@/lib/reading";
 
@@ -33,7 +33,7 @@ export const Route = createFileRoute("/nazm/$slug")({
 });
 
 function NazmDetail() {
-  const { nazm } = Route.useLoaderData();
+  const { nazm } = Route.useLoaderData() as { nazm: Nazm };
   const full = nazm.stanzas.map((s) => s.join("\n")).join("\n\n");
 
   return (
