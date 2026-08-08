@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { Check, Github, Instagram, Mail, Send, Twitter } from "lucide-react";
+import { Check, Globe, Instagram, Send, Youtube } from "lucide-react";
 import { SectionTitle } from "@/components/Divider";
 
 export const Route = createFileRoute("/contact")({
@@ -98,17 +98,66 @@ function ContactPage() {
         )}
       </div>
 
-      <div className="mt-10 flex justify-center gap-3">
-        {[Instagram, Twitter, Github, Mail].map((Icon, i) => (
-          <a
-            key={i}
-            href="#"
-            aria-label={["Instagram", "Twitter", "GitHub", "Email"][i]}
-            className="grid size-12 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
-          >
-            <Icon className="size-4" />
-          </a>
-        ))}
+      {/* Creators' social accounts */}
+      <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="glass rounded-3xl p-6 text-center">
+          <p className="font-display text-lg text-foreground">Minteez</p>
+          <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">Idea & Co-creator</p>
+          <div className="mt-4 flex justify-center gap-2">
+            <a
+              href="https://www.instagram.com/sudo.minteez"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Minteez on Instagram"
+              className="grid size-11 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
+            >
+              <Instagram className="size-4" />
+            </a>
+            <a
+              href="https://www.youtube.com/@thecubermint"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Minteez on YouTube"
+              className="grid size-11 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
+            >
+              <Youtube className="size-4" />
+            </a>
+            <a
+              href="https://minteez.lovable.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Minteez portfolio website"
+              className="grid size-11 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
+            >
+              <Globe className="size-4" />
+            </a>
+          </div>
+        </div>
+
+        <div className="glass rounded-3xl p-6 text-center">
+          <p className="font-display text-lg text-foreground">Mrs. Shagufta Kulsoom</p>
+          <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">Idea & Co-creator</p>
+          <div className="mt-4 flex justify-center gap-2">
+            <a
+              href="https://www.instagram.com/kul.nas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Mrs. Shagufta Kulsoom on Instagram"
+              className="grid size-11 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
+            >
+              <Instagram className="size-4" />
+            </a>
+            <a
+              href="https://www.youtube.com/@shaguftakulsoomteacher4554"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Mrs. Shagufta Kulsoom on YouTube"
+              className="grid size-11 place-items-center rounded-full glass text-muted-foreground transition-colors hover:text-gold"
+            >
+              <Youtube className="size-4" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

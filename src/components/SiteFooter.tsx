@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Github, Instagram, Mail, Twitter } from "lucide-react";
+import { Globe, Instagram, Youtube } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { NAZMS, SHAYARI_CATEGORIES, SITE } from "@/data/content";
@@ -15,18 +15,6 @@ export function SiteFooter() {
           <p className="hindi mt-3 text-sm text-muted-foreground">
             हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।
           </p>
-          <div className="mt-5 flex gap-2">
-            {[Instagram, Twitter, Github, Mail].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                aria-label={["Instagram", "Twitter", "GitHub", "Email"][i]}
-                className="grid size-11 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
-              >
-                <Icon className="size-4" />
-              </a>
-            ))}
-          </div>
         </div>
 
         <div>
@@ -98,9 +86,74 @@ export function SiteFooter() {
         </div>
       </div>
 
+      {/* Creators & their social accounts */}
+      <div className="border-t border-border/60">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-2">
+          {/* Minteez */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <p className="font-display text-lg text-foreground">Minteez</p>
+            <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">Idea & Co-creator</p>
+            <div className="mt-3 flex gap-2">
+              <a
+                href="https://www.instagram.com/sudo.minteez"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Minteez on Instagram"
+                className="grid size-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
+              >
+                <Instagram className="size-4" />
+              </a>
+              <a
+                href="https://www.youtube.com/@thecubermint"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Minteez on YouTube"
+                className="grid size-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
+              >
+                <Youtube className="size-4" />
+              </a>
+              <a
+                href="https://minteez.lovable.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Minteez portfolio website"
+                className="grid size-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
+              >
+                <Globe className="size-4" />
+              </a>
+            </div>
+          </div>
+
+          {/* Mrs. Shagufta Kulsoom */}
+          <div className="flex flex-col items-center text-center md:items-end md:text-right">
+            <p className="font-display text-lg text-foreground">Mrs. Shagufta Kulsoom</p>
+            <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">Idea & Co-creator</p>
+            <div className="mt-3 flex gap-2">
+              <a
+                href="https://www.instagram.com/kul.nas/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Mrs. Shagufta Kulsoom on Instagram"
+                className="grid size-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
+              >
+                <Instagram className="size-4" />
+              </a>
+              <a
+                href="https://www.youtube.com/@shaguftakulsoomteacher4554"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Mrs. Shagufta Kulsoom on YouTube"
+                className="grid size-10 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-gold/60 hover:text-gold"
+              >
+                <Youtube className="size-4" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="border-t border-border/60 px-4 py-8 text-center text-xs text-muted-foreground sm:px-6">
-        <p>Idea by Minteez and Mrs. Shagufta Kulsoom</p>
-        <p className="mt-1">Developed by ChatGPT and Lovable</p>
+        <p>Developed by ChatGPT and Lovable</p>
         <p className="mt-3">Version {SITE.version}</p>
         <p className="mt-1">© 2026 {SITE.name}. All Rights Reserved.</p>
       </div>
