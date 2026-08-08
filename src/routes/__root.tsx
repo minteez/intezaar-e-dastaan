@@ -80,17 +80,23 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Intezaar-e-Dastaan — Hindi & Urdu Poetry" },
+      { title: "Intezaar-e-Dastaan — हर एहसास की एक दास्तान" },
       {
         name: "description",
         content:
-          "Intezaar-e-Dastaan — a premium collection of Hindi and Urdu shayari, nazm and quotes about longing, love and hope.",
+          "हिंदी और उर्दू शायरी, नज़्म और कोट्स का एक ख़ूबसूरत संग्रह — इंतज़ार, मोहब्बत, तन्हाई और उम्मीद के अल्फ़ाज़।",
       },
       { name: "author", content: "Intezaar-e-Dastaan" },
       { name: "theme-color", content: "#0d1226" },
       { property: "og:site_name", content: "Intezaar-e-Dastaan" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Intezaar-e-Dastaan — हर एहसास की एक दास्तान" },
+      { name: "twitter:title", content: "Intezaar-e-Dastaan — हर एहसास की एक दास्तान" },
+      { property: "og:description", content: "हिंदी और उर्दू शायरी, नज़्म और कोट्स का एक ख़ूबसूरत संग्रह — इंतज़ार, मोहब्बत, तन्हाई और उम्मीद के अल्फ़ाज़।" },
+      { name: "twitter:description", content: "हिंदी और उर्दू शायरी, नज़्म और कोट्स का एक ख़ूबसूरत संग्रह — इंतज़ार, मोहब्बत, तन्हाई और उम्मीद के अल्फ़ाज़।" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/21337700-fcd4-40f3-aaaf-aec238c5429a" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/21337700-fcd4-40f3-aaaf-aec238c5429a" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

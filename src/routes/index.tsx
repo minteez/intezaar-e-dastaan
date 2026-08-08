@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Intezaar-e-Dastaan — हर एहसास की एक दास्तान" },
       {
         property: "og:description",
-        content: "Hindi & Urdu shayari, nazm and quotes — a moonlit literary journal.",
+        content: "हिंदी और उर्दू शायरी, नज़्म और कोट्स का एक ख़ूबसूरत संग्रह — इंतज़ार, मोहब्बत, तन्हाई और उम्मीद के अल्फ़ाज़।",
       },
       { property: "og:url", content: "/" },
     ],
