@@ -1,14 +1,390 @@
-# Welcome to your Lovable project
+# Intezaar-e-Dastaan Studio
+
+# Prompt for Lovable
+
+Create a premium, elegant, fully responsive Hindi poetry and literature website named **"Intezaar-e-Dastaan"**. The website should feel emotional, peaceful, poetic, and visually immersive, inspired by classic Urdu and Hindi literature. The overall design should combine modern web aesthetics with traditional calligraphy-inspired elements. Use a luxurious color palette featuring deep midnight blue, black, charcoal, ivory, warm beige, soft gold accents, moonlight silver, and subtle gradients. Add floating particles, glowing stars, slow-moving clouds, gentle moonlight effects, animated lanterns, page transitions, smooth scrolling, elegant hover animations, glassmorphism cards, and tasteful typography. Use beautiful Hindi fonts (such as Noto Serif Devanagari or Mukta) paired with elegant English fonts for UI elements.
+
+### Website Identity
+
+**Website Name:** Intezaar-e-Dastaan
+
+**Tagline (Hero Section):**
+
+> **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
+
+Alternative rotating tagline:
+
+> **दिल से निकले अल्फ़ाज़, जो दिल तक पहुँचें।**
+
+The landing page should immediately create an emotional connection with visitors through animated typography, moonlight visuals, subtle background music toggle (optional), and a cinematic hero banner.
+
+---
+
+# Navigation
+
+Create a sticky navigation bar containing:
+
+- Home
+
+- Shayari
+
+- Nazm
+
+- Quotes
+
+- About Me
+
+- Contact
+
+The navigation should become slightly transparent while scrolling and smoothly animate between sections.
+
+---
+
+# Home Page
+
+The homepage should showcase featured writings with beautiful cards.
+
+Create sections including:
+
+## Hero Banner
+
+Display:
+
+**Intezaar-e-Dastaan**
+
+with the tagline
+
+> हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।
+
+Include an elegant "Read Latest" button.
+
+Background:
+
+Moonlit sky, stars, clouds, subtle Urdu manuscript texture, glowing particles.
+
+---
+
+## Featured Categories
+
+Beautiful icon cards for:
+
+- इंतज़ार
+
+- ख़ामोश मोहब्बत
+
+- अधूरा साथ
+
+- रिश्तों की नर्मी
+
+- तन्हाई
+
+- उम्मीद
+
+Each card should gently animate on hover.
+
+---
+
+## Latest Shayari
+
+Display the provided poetry beautifully using elegant typography.
+
+Example:
+
+> कुछ रिश्ते मुकम्मल होकर भी अधूरे रह जाते हैं,
+
+> और कुछ इंतज़ार उम्र भर साथ निभाते हैं।
+
+---
+
+## Today's Featured Writing
+
+Create a highlighted premium section.
+
+---
+
+## Quote of the Day
+
+Randomly display one quote every page refresh.
+
+---
+
+# Shayari Page
+
+Organize writings into categories:
+
+- मोहब्बत
+
+- इंतज़ार
+
+- दर्द
+
+- ख़ामोशी
+
+- उम्मीद
+
+- रिश्ते
+
+- तन्हाई
+
+Each category should open into beautiful cards containing poetry.
+
+Provide search functionality.
+
+Provide category filters.
+
+Provide favorite/bookmark option.
+
+Provide copy-to-clipboard button.
+
+Provide share button.
+
+---
+
+# Nazm Page
+
+Create a long-form poetry reading experience.
+
+Use:
+
+Large typography
+
+Comfortable spacing
+
+Elegant page layout
+
+Background texture
+
+Estimated reading time
+
+Animated fade-in paragraphs
+
+Include the provided long poems such as:
+
+- इंतज़ार से आगे…
+
+- राज़-ए-दिल… और एक उम्मीद
+
+- ज़िंदगी हर किसी को बार-बार मौका नहीं देती…
+
+Each Nazm should have its own beautifully styled reading page.
+
+---
+
+# Quotes Page
+
+Display short emotional lines in Pinterest-style masonry cards.
+
+Examples:
+
+> बस याद इतनी सी रह गई...
+
+> कभी कोई अपना सा लगता था।
+
+---
+
+> आज फिर चाँद को देर तक देखा...
+
+---
+
+> कभी कभी जिस तारे को हम ढूँढते रहते हैं...
+
+Hover animation:
+
+Slight glow
+
+Soft lift
+
+Share option
+
+Copy option
+
+Random quote feature
+
+---
+
+# About Me
+
+Create an elegant storytelling section.
+
+Title:
+
+**मेरे बारे में**
+
+Sample content:
+
+> शब्द हमेशा मेरे लिए सिर्फ़ लिखने का माध्यम नहीं रहे, बल्कि दिल के उन एहसासों की आवाज़ हैं जिन्हें अक्सर लोग कह नहीं पाते। "Intezaar-e-Dastaan" उन सभी अनकहे जज़्बातों का संग्रह है जो इंतज़ार, मोहब्बत, तन्हाई, उम्मीद और ज़िंदगी के सफ़र से जन्म लेते हैं। मेरी कोशिश बस इतनी है कि जो अल्फ़ाज़ मेरे दिल से निकले हैं, वे किसी और के दिल तक पहुँच जाएँ।
+
+Add:
+
+Writing inspiration
+
+Journey
+
+Vision
+
+Beautiful portrait placeholder
+
+Timeline
+
+Statistics
+
+Number of Shayaris
+
+Number of Nazms
+
+Number of Quotes
+
+Years Writing
+
+---
+
+# Contact Page
+
+Elegant contact form containing:
+
+- Name
+
+- Email
+
+- Subject
+
+- Message
+
+Include:
+
+Social media placeholders
+
+Thank-you animation
+
+Success message
+
+---
+
+# Search
+
+Global search should instantly search across:
+
+Shayari
+
+Nazm
+
+Quotes
+
+---
+
+# Additional Features
+
+Implement:
+
+Dark Mode / Light Mode
+
+Reading Mode
+
+Font Size Changer
+
+Reading Progress Bar
+
+Scroll-to-top button
+
+Smooth animations
+
+Lazy loading
+
+SEO optimization
+
+Accessibility features
+
+Keyboard navigation
+
+Mobile-first responsive layout
+
+PWA support
+
+Offline support
+
+Fast loading
+
+Optimized assets
+
+---
+
+# Footer
+
+Create a luxurious footer containing:
+
+Website Name
+
+Quick Links
+
+Categories
+
+Latest Writings
+
+Contact
+
+Social Icons
+
+Newsletter Subscription
+
+Copyright
+
+Credits:
+
+**Idea generated by Minteez and Mrs. Shagufta Kulsoom**
+
+**Developed by ChatGPT and Lovable**
+
+Display website version:
+
+**Version 1.0.0**
+
+Include:
+
+© 2026 Intezaar-e-Dastaan. All Rights Reserved.
+
+---
+
+# Design Style
+
+The overall aesthetic should resemble a premium literary journal combined with a modern storytelling experience.
+
+Use:
+
+- Glassmorphism
+
+- Soft shadows
+
+- Rounded cards
+
+- Elegant spacing
+
+- Moonlight glow effects
+
+- Floating stars
+
+- Animated clouds
+
+- Paper texture backgrounds
+
+- Calligraphy-inspired decorative dividers
+
+- Smooth fade and parallax scrolling
+
+- Beautiful loading screen with the website logo and an animated ink-writing effect
+
+The website should evoke emotions of nostalgia, hope, longing, and quiet reflection while maintaining excellent usability, accessibility, and performance across desktop, tablet, and mobile devices. It should feel like reading a beautifully crafted poetry book brought to life on the web.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://intezaar-e-dastaan.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c2bcb53d-a3e3-4abf-bf25-0ae45a1be066).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +396,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
