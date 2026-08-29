@@ -279,3 +279,7 @@
     transition-duration: 0.001ms !important;
   }
 }
+/* Hide Lovable watermark badge */
+#lovable-badge {
+  display: none !important;
+}
