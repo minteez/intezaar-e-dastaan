@@ -1,398 +1,324 @@
-# Intezaar-e-Dastaan Studio
-
-# Prompt for Lovable
-
-Create a premium, elegant, fully responsive Hindi poetry and literature website named **"Intezaar-e-Dastaan"**. The website should feel emotional, peaceful, poetic, and visually immersive, inspired by classic Urdu and Hindi literature. The overall design should combine modern web aesthetics with traditional calligraphy-inspired elements. Use a luxurious color palette featuring deep midnight blue, black, charcoal, ivory, warm beige, soft gold accents, moonlight silver, and subtle gradients. Add floating particles, glowing stars, slow-moving clouds, gentle moonlight effects, animated lanterns, page transitions, smooth scrolling, elegant hover animations, glassmorphism cards, and tasteful typography. Use beautiful Hindi fonts (such as Noto Serif Devanagari or Mukta) paired with elegant English fonts for UI elements.
-
-### Website Identity
-
-**Website Name:** Intezaar-e-Dastaan
-
-**Tagline (Hero Section):**
+# 🌙 Intezaar-e-Dastaan
 
 > **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
 
-Alternative rotating tagline:
+**Intezaar-e-Dastaan** is a modern Hindi-Urdu poetry and literary website created as a digital space for emotions, stories, memories, silence, longing, hope, and the many feelings that are often difficult to express in words.
+
+The website brings together **Shayari, Nazm, and heartfelt Quotes** in an immersive reading experience inspired by the timeless atmosphere of Hindi and Urdu literature.
+
+---
+
+## ✨ About the Project
+
+Some emotions are too deep for ordinary words.
+
+**Intezaar-e-Dastaan** explores those emotions through poetry — from *intezaar* and *khamosh mohabbat* to loneliness, unfinished relationships, memories, dreams, and hope.
+
+The central idea of the website is simple:
+
+> **कुछ रिश्ते मुकम्मल होकर भी अधूरे रह जाते हैं,
+> और कुछ इंतज़ार उम्र भर साथ निभाते हैं।**
+
+The website is designed to feel less like a conventional webpage and more like a **digital poetry book** where every section represents a different emotion and every poem tells a small story.
+
+---
+
+## 📖 Content
+
+### 🖋️ Shayari
+
+A collection of short poetic expressions organized around different emotions and themes.
+
+Categories include:
+
+* इंतज़ार
+* मोहब्बत
+* ख़ामोशी
+* दर्द
+* उम्मीद
+* तन्हाई
+* रिश्ते
+* अधूरा साथ
+* ख़ामोश मोहब्बत
+* रिश्तों की नर्मी
+
+---
+
+### 📜 Nazm
+
+A dedicated space for longer poetic compositions.
+
+Nazms are presented in an immersive reading layout with generous typography and spacing so that visitors can focus entirely on the writing.
+
+Featured themes include:
+
+* **इंतज़ार से आगे…**
+* **राज़-ए-दिल… और एक उम्मीद**
+* **ज़िंदगी हर किसी को बार-बार मौका नहीं देती…**
+
+These writings explore subjects such as self-discovery, perseverance, relationships, unspoken emotions, education, dreams, courage, and hope.
+
+---
+
+### 💭 Quotes
+
+Short, meaningful lines designed to capture an entire emotion in just a few words.
+
+Examples of themes include:
+
+* Memories
+* Moonlight
+* Stars
+* Silence
+* Waiting
+* Hope
+* Loneliness
+* Unspoken feelings
+
+The Quotes section is designed for quick reading while retaining the emotional atmosphere of the rest of the website.
+
+---
+
+## 🌙 Featured Themes
+
+The visual and literary identity of **Intezaar-e-Dastaan** revolves around recurring themes such as:
+
+**इंतज़ार** — waiting, longing, and anticipation.
+
+**ख़ामोश मोहब्बत** — feelings that remain unspoken.
+
+**अधूरा साथ** — relationships and stories that never reached their expected ending.
+
+**तन्हाई** — solitude and introspection.
+
+**रिश्तों की नर्मी** — the delicate emotions within human relationships.
+
+**उम्मीद** — finding light even after difficult moments.
+
+**राज़-ए-दिल** — thoughts and emotions that remain hidden within the heart.
+
+---
+
+## 🎨 Design Philosophy
+
+The website combines the atmosphere of traditional Hindi-Urdu literature with modern web design.
+
+The visual direction focuses on:
+
+* 🌙 Moonlit aesthetics
+* ⭐ Subtle stars and atmospheric particles
+* ☁️ Soft cloud effects
+* ✨ Gentle glowing elements
+* 📖 Literary-inspired layouts
+* 🖋️ Elegant Devanagari typography
+* 🪶 Calligraphy-inspired decorative elements
+* 🌓 Dark and light visual experiences
+* 💫 Smooth transitions and animations
+* 🪟 Modern glassmorphism elements
+* 📜 Subtle paper and manuscript textures
+
+The goal is not to overwhelm the poetry with visual effects, but to **create an atmosphere in which the writing feels more immersive**.
+
+---
+
+## 🧭 Website Structure
+
+The website is organized into five primary sections:
+
+| Section         | Purpose                                                             |
+| --------------- | ------------------------------------------------------------------- |
+| 🏠 **Home**     | Introduction, featured writings, categories, and highlighted poetry |
+| 🖋️ **Shayari** | Short poetic works organized by emotion and theme                   |
+| 📜 **Nazm**     | Longer poetic compositions and immersive reading experiences        |
+| 💭 **Quotes**   | Short emotional and thought-provoking lines                         |
+| 👤 **About Me** | The inspiration and story behind the project                        |
+
+---
+
+## 🔍 Reading & Discovery Features
+
+The website is designed to make discovering poetry simple and enjoyable.
+
+Planned/implemented features include:
+
+* 🔎 Global poetry search
+* 🏷️ Category filtering
+* ❤️ Local favorites/bookmarks
+* 📋 Copy-to-clipboard
+* 📤 Share functionality
+* 🎲 Random Shayari
+* 💭 Random Quote
+* 📖 Dedicated reading mode
+* 🔠 Adjustable font size
+* 📊 Reading progress indicator
+* 🌓 Dark/Light mode
+* 📱 Responsive mobile experience
+* ⬆️ Scroll-to-top functionality
+* ✨ Smooth page and section transitions
+
+---
+
+## 🏠 Home Experience
+
+The homepage serves as the introduction to the world of **Intezaar-e-Dastaan**.
+
+It features a cinematic literary hero section containing the website title and tagline, followed by curated poetry collections, featured writings, categories, and a quote-of-the-day experience.
+
+Possible featured taglines include:
+
+> **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
 
 > **दिल से निकले अल्फ़ाज़, जो दिल तक पहुँचें।**
 
-The landing page should immediately create an emotional connection with visitors through animated typography, moonlight visuals, subtle background music toggle (optional), and a cinematic hero banner.
+> **कुछ अल्फ़ाज़ पढ़े नहीं जाते... महसूस किए जाते हैं।**
 
 ---
 
-# Navigation
+## 👤 About Me
 
-Create a sticky navigation bar containing:
+The **About Me** section explains the inspiration behind the collection and the idea of turning personal emotions and observations into poetry.
 
-- Home
+It focuses on the belief that writing can give a voice to feelings that people may struggle to express directly.
 
-- Shayari
+The section may include:
 
-- Nazm
-
-- Quotes
-
-- About Me
-
-- Contact
-
-The navigation should become slightly transparent while scrolling and smoothly animate between sections.
+* Writing inspiration
+* Creative journey
+* Philosophy behind the website
+* Vision for the project
+* Poetry statistics
+* Author/creator information
 
 ---
 
-# Home Page
+## 💡 Core Message
 
-The homepage should showcase featured writings with beautiful cards.
+One of the central ideas behind the project is:
 
-Create sections including:
+> **इंतज़ार सिर्फ़ मिलने का नहीं होता,
+> कभी-कभी खुद को पहचानने का भी होता है…**
 
-## Hero Banner
+The website also explores the idea that waiting does not always mean standing still.
 
-Display:
+Sometimes, the journey itself is where growth happens.
 
-**Intezaar-e-Dastaan**
+Every book can hold a new dream.
 
-with the tagline
+Every attempt can make us stronger.
 
-> हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।
+Every unanswered question can lead to a new path.
 
-Include an elegant "Read Latest" button.
-
-Background:
-
-Moonlit sky, stars, clouds, subtle Urdu manuscript texture, glowing particles.
+And sometimes, what we fail to understand today becomes what teaches us the most tomorrow.
 
 ---
 
-## Featured Categories
+## 🌌 The Experience
 
-Beautiful icon cards for:
+**Intezaar-e-Dastaan** is intended to be more than a collection of poems.
 
-- इंतज़ार
+It is an exploration of the emotions behind them.
 
-- ख़ामोश मोहब्बत
+Visitors should be able to arrive, slow down, read a few lines, and perhaps find something that reminds them of a memory, a person, a dream, or even themselves.
 
-- अधूरा साथ
+The experience is built around one simple philosophy:
 
-- रिश्तों की नर्मी
-
-- तन्हाई
-
-- उम्मीद
-
-Each card should gently animate on hover.
+> **हर शब्द के पीछे एक एहसास है,
+> और हर एहसास की अपनी एक दास्तान।**
 
 ---
 
-## Latest Shayari
+## 👥 Creators & Contributors
 
-Display the provided poetry beautifully using elegant typography.
+### 🧑‍💻 Minteez — Co-Creator
 
-Example:
+Minteez is the **co-creator and technical contributor** behind *Intezaar-e-Dastaan*, contributing to the website concept, digital experience, web development, and AI-assisted creation process.
 
-> कुछ रिश्ते मुकम्मल होकर भी अधूरे रह जाते हैं,
+**Profiles:**
 
-> और कुछ इंतज़ार उम्र भर साथ निभाते हैं।
-
----
-
-## Today's Featured Writing
-
-Create a highlighted premium section.
+* 📸 Instagram — [@sudo.minteez](https://www.instagram.com/sudo.minteez)
+* ▶️ YouTube — [@thecubermint](https://www.youtube.com/@thecubermint)
+* 🌐 Portfolio — [Minteez Portfolio](https://minteez.lovable.app)
 
 ---
 
-## Quote of the Day
+### ✍️ Mrs. Shagufta Kulsoom — Idea & Inspiration
 
-Randomly display one quote every page refresh.
+Mrs. Shagufta Kulsoom is the **idea contributor and creative inspiration** behind *Intezaar-e-Dastaan*, contributing to the original literary concept and ideas that shaped the website.
 
----
+**Profiles:**
 
-# Shayari Page
-
-Organize writings into categories:
-
-- मोहब्बत
-
-- इंतज़ार
-
-- दर्द
-
-- ख़ामोशी
-
-- उम्मीद
-
-- रिश्ते
-
-- तन्हाई
-
-Each category should open into beautiful cards containing poetry.
-
-Provide search functionality.
-
-Provide category filters.
-
-Provide favorite/bookmark option.
-
-Provide copy-to-clipboard button.
-
-Provide share button.
+* 📸 Instagram — [@kul.nas](https://www.instagram.com/kul.nas/)
+* ▶️ YouTube — [Rock Students](https://www.youtube.com/@shaguftakulsoomteacher4554)
 
 ---
 
-# Nazm Page
+## 💻 Technology & Development
 
-Create a long-form poetry reading experience.
+The website is designed as a modern, responsive web experience with an emphasis on:
 
-Use:
+* Responsive design
+* Modern UI/UX
+* Accessibility
+* Performance
+* Smooth animations
+* Semantic structure
+* SEO-friendly content
+* Mobile-first layouts
+* Clean component architecture
 
-Large typography
-
-Comfortable spacing
-
-Elegant page layout
-
-Background texture
-
-Estimated reading time
-
-Animated fade-in paragraphs
-
-Include the provided long poems such as:
-
-- इंतज़ार से आगे…
-
-- राज़-ए-दिल… और एक उम्मीद
-
-- ज़िंदगी हर किसी को बार-बार मौका नहीं देती…
-
-Each Nazm should have its own beautifully styled reading page.
+The project is developed with the assistance of modern AI-powered development tools.
 
 ---
 
-# Quotes Page
+## 🎯 Project Goals
 
-Display short emotional lines in Pinterest-style masonry cards.
+The primary goals of **Intezaar-e-Dastaan** are to:
 
-Examples:
-
-> बस याद इतनी सी रह गई...
-
-> कभी कोई अपना सा लगता था।
-
----
-
-> आज फिर चाँद को देर तक देखा...
+1. Create an immersive digital home for Hindi-Urdu poetry.
+2. Present poetry in a modern and accessible format.
+3. Preserve the emotional character of traditional literary writing.
+4. Make discovering Shayari and Nazm simple and enjoyable.
+5. Combine literature with modern web design.
+6. Create a peaceful reading experience rather than a content-heavy interface.
+7. Explore how technology can be used to present creative writing in new ways.
 
 ---
 
-> कभी कभी जिस तारे को हम ढूँढते रहते हैं...
+## 🧑‍💻 Credits
 
-Hover animation:
-
-Slight glow
-
-Soft lift
-
-Share option
-
-Copy option
-
-Random quote feature
-
----
-
-# About Me
-
-Create an elegant storytelling section.
-
-Title:
-
-**मेरे बारे में**
-
-Sample content:
-
-> शब्द हमेशा मेरे लिए सिर्फ़ लिखने का माध्यम नहीं रहे, बल्कि दिल के उन एहसासों की आवाज़ हैं जिन्हें अक्सर लोग कह नहीं पाते। "Intezaar-e-Dastaan" उन सभी अनकहे जज़्बातों का संग्रह है जो इंतज़ार, मोहब्बत, तन्हाई, उम्मीद और ज़िंदगी के सफ़र से जन्म लेते हैं। मेरी कोशिश बस इतनी है कि जो अल्फ़ाज़ मेरे दिल से निकले हैं, वे किसी और के दिल तक पहुँच जाएँ।
-
-Add:
-
-Writing inspiration
-
-Journey
-
-Vision
-
-Beautiful portrait placeholder
-
-Timeline
-
-Statistics
-
-Number of Shayaris
-
-Number of Nazms
-
-Number of Quotes
-
-Years Writing
-
----
-
-# Contact Page
-
-Elegant contact form containing:
-
-- Name
-
-- Email
-
-- Subject
-
-- Message
-
-Include:
-
-Social media placeholders
-
-Thank-you animation
-
-Success message
-
----
-
-# Search
-
-Global search should instantly search across:
-
-Shayari
-
-Nazm
-
-Quotes
-
----
-
-# Additional Features
-
-Implement:
-
-Dark Mode / Light Mode
-
-Reading Mode
-
-Font Size Changer
-
-Reading Progress Bar
-
-Scroll-to-top button
-
-Smooth animations
-
-Lazy loading
-
-SEO optimization
-
-Accessibility features
-
-Keyboard navigation
-
-Mobile-first responsive layout
-
-PWA support
-
-Offline support
-
-Fast loading
-
-Optimized assets
-
----
-
-# Footer
-
-Create a luxurious footer containing:
-
-Website Name
-
-Quick Links
-
-Categories
-
-Latest Writings
-
-Contact
-
-Social Icons
-
-Newsletter Subscription
-
-Copyright
-
-Credits:
+### Idea
 
 **Idea generated by Minteez and Mrs. Shagufta Kulsoom**
 
+### Development
+
 **Developed by ChatGPT and Lovable**
-
-Display website version:
-
-**Version 1.0.0**
-
-Include:
-
-© 2026 Intezaar-e-Dastaan. All Rights Reserved.
 
 ---
 
-# Design Style
+## 📌 Project Status
 
-The overall aesthetic should resemble a premium literary journal combined with a modern storytelling experience.
+**Version:** `1.0.0`
 
-Use:
+**Status:** Active Development
 
-- Glassmorphism
+The website can continue to evolve with new Shayari, Nazms, Quotes, collections, reading features, and visual improvements.
 
-- Soft shadows
+---
 
-- Rounded cards
+## 📄 License
 
-- Elegant spacing
+© 2026 **Intezaar-e-Dastaan**. All Rights Reserved.
 
-- Moonlight glow effects
+Unless otherwise stated, the written poetry and original content presented on this website should not be reproduced or redistributed without permission.
 
-- Floating stars
+---
 
-- Animated clouds
+<p align="center">
+  <i>“कुछ इंतज़ार ऐसे होते हैं, जो कभी पूरे नहीं होते…<br>
+  बस दिल के किसी कोने में चुपचाप बस जाते हैं।”</i>
+</p>
 
-- Paper texture backgrounds
-
-- Calligraphy-inspired decorative dividers
-
-- Smooth fade and parallax scrolling
-
-- Beautiful loading screen with the website logo and an animated ink-writing effect
-
-The website should evoke emotions of nostalgia, hope, longing, and quiet reflection while maintaining excellent usability, accessibility, and performance across desktop, tablet, and mobile devices. It should feel like reading a beautifully crafted poetry book brought to life on the web.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://intezaar-e-dastaan.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c2bcb53d-a3e3-4abf-bf25-0ae45a1be066).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+<p align="center">
+  🌙 <b>Intezaar-e-Dastaan</b> — जहाँ हर एहसास एक दास्तान है।
+</p>
