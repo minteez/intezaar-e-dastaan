@@ -2,6 +2,13 @@
 ## Gallery
 Home Page
 <img width="1584" height="900" alt="image" src="https://github.com/user-attachments/assets/1211c472-38d7-43cd-813d-7eaacbd3ffc9" />
+Shayari Page
+<img width="1582" height="900" alt="image" src="https://github.com/user-attachments/assets/5790c122-d0c8-4445-b6aa-2274b8c8d8ff" />
+Nazm Page
+<img width="1582" height="900" alt="image" src="https://github.com/user-attachments/assets/bd6b7253-f4aa-4549-8367-cd0f644e8c18" />
+A detailed entry of Nazm
+<img width="1582" height="900" alt="image" src="https://github.com/user-attachments/assets/e42d59c6-b1ab-49eb-a5d3-08b1958296e5" />
+
 
 > **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
 
