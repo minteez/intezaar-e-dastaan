@@ -1,4 +1,7 @@
 # 🌙 Intezaar-e-Dastaan
+## Gallery
+Home Page
+<img width="1584" height="900" alt="image" src="https://github.com/user-attachments/assets/1211c472-38d7-43cd-813d-7eaacbd3ffc9" />
 
 > **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
 
