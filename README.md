@@ -10,6 +10,8 @@ A detailed entry of Nazm
 <img width="1582" height="900" alt="image" src="https://github.com/user-attachments/assets/e42d59c6-b1ab-49eb-a5d3-08b1958296e5" />
 Quotes Page
 <img width="1587" height="900" alt="image" src="https://github.com/user-attachments/assets/1a70b6d8-188f-46cb-a9de-a38bdd540652" />
+Footer
+<img width="1585" height="777" alt="image" src="https://github.com/user-attachments/assets/2d14405b-8776-43fc-8257-ad4ec619e6c7" />
 
 > **हर एहसास की एक दास्तान, हर दास्तान में एक इंतज़ार।**
 
